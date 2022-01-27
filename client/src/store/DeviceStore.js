@@ -11,6 +11,14 @@ export default class DeviceStore {
       {
         "id": 2,
         "name": "Смартфоны"
+      },
+      {
+        "id": 3,
+        "name": "Ноутбуки"
+      },
+      {
+        "id": 4,
+        "name": "Телевизоры"
       }
     ]
     this._brands = [
@@ -21,6 +29,14 @@ export default class DeviceStore {
       {
         "id": 2,
         "name": "Apple"
+      },
+      {
+        "id": 3,
+        "name": "Lenovo"
+      },
+      {
+        "id": 4,
+        "name": "Asus"
       }
     ]
     this._devices = [
@@ -43,6 +59,8 @@ export default class DeviceStore {
         "brandId": 1
       }
     ]
+    this._selectedType = {}
+    this._selectedBrand = {}
     makeAutoObservable(this)
   }
 
@@ -68,6 +86,22 @@ export default class DeviceStore {
 
   set devices(value) {
     this._devices = value;
+  }
+
+  get selectedType() {
+    return this._selectedType;
+  }
+
+  setSelectedType(value) {
+    this._selectedType = value;
+  }
+
+  get selectedBrand() {
+    return this._selectedBrand;
+  }
+
+  setSelectedBrand(value) {
+    this._selectedBrand = value;
   }
 
 }
