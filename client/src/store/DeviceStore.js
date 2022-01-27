@@ -57,6 +57,42 @@ export default class DeviceStore {
         "img": "d984c7ec-3c1c-46f5-b0f6-7ee9c458bde4.jpg",
         "typeId": 1,
         "brandId": 1
+      },
+      {
+        "id": 3,
+        "name": "12 pro",
+        "price": 10000,
+        "rating": 0,
+        "img": "a86155c0-0089-4366-a769-5a8680e8f6b9.jpg",
+        "typeId": 2,
+        "brandId": 2
+      },
+      {
+        "id": 4,
+        "name": "Atlant",
+        "price": 10000,
+        "rating": 0,
+        "img": "d984c7ec-3c1c-46f5-b0f6-7ee9c458bde4.jpg",
+        "typeId": 1,
+        "brandId": 1
+      },
+      {
+        "id": 5,
+        "name": "12 pro",
+        "price": 10000,
+        "rating": 0,
+        "img": "a86155c0-0089-4366-a769-5a8680e8f6b9.jpg",
+        "typeId": 2,
+        "brandId": 2
+      },
+      {
+        "id": 6,
+        "name": "Atlant",
+        "price": 10000,
+        "rating": 0,
+        "img": "d984c7ec-3c1c-46f5-b0f6-7ee9c458bde4.jpg",
+        "typeId": 1,
+        "brandId": 1
       }
     ]
     this._selectedType = {}
